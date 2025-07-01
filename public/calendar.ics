@@ -1,0 +1,452 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SRVIC - ECPv6.2.9//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SRVIC
+X-ORIGINAL-URL:https://srvic.org
+X-WR-CALDESC:Events for SRVIC
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20250309T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20251102T090000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250617T100000
+DTEND;TZID=America/Los_Angeles:20250702T140000
+DTSTAMP:20250618T193804
+CREATED:20250504T223810Z
+LAST-MODIFIED:20250504T224749Z
+UID:10011220-1750154400-1751464800@srvic.org
+SUMMARY:Tanzil Islamic Studies Camp A
+DESCRIPTION:
+URL:https://srvic.org/event/tanzil-islamic-studies-camp-a/
+LOCATION:SRVIC Center\, 2232 Camino Ramon\,\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:Educational,Featured,Youth
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250618T160000
+DTEND;TZID=America/Los_Angeles:20250618T180000
+DTSTAMP:20250618T193804
+CREATED:20250131T032547Z
+LAST-MODIFIED:20250131T033440Z
+UID:10008652-1750262400-1750269600@srvic.org
+SUMMARY:Youth Quran Reading Class - MW
+DESCRIPTION:
+URL:https://srvic.org/event/youth-quran-reading-class-mw/2025-06-18/
+LOCATION:Family Room – B\, 2232 Camino Ramon\, San Ramon
+CATEGORIES:Educational,Youth
+ATTACH;FMTTYPE=image/png:https://srvic.org/wp-content/uploads/2022/08/Moslem-Boy-Reading-Al-Quran-e1661642544161.png
+ORGANIZER;CN="Sr. Rawad":MAILTO:rkhandakji@srvic.net
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250618T163000
+DTEND;TZID=America/Los_Angeles:20250618T173000
+DTSTAMP:20250618T193804
+CREATED:20250131T034445Z
+LAST-MODIFIED:20250131T034445Z
+UID:10010217-1750264200-1750267800@srvic.org
+SUMMARY:Youth Quran Reading Class - Sr Roya
+DESCRIPTION:
+URL:https://srvic.org/event/youth-quran-reading-class-sr-roya/2025-06-18/
+LOCATION:Women Prayer Hall\, 2232 Camino Ramon\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:Educational,Youth
+ATTACH;FMTTYPE=image/jpeg:https://srvic.org/wp-content/uploads/2025/01/The-Flyer-of-Youth-Quran-Reading.jpg
+ORGANIZER;CN="Sr  Roya":MAILTO:quran@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250618T173000
+DTEND;TZID=America/Los_Angeles:20250618T193000
+DTSTAMP:20250618T193804
+CREATED:20250612T191546Z
+LAST-MODIFIED:20250612T191644Z
+UID:10011228-1750267800-1750275000@srvic.org
+SUMMARY:Senior Social June-2025
+DESCRIPTION:
+URL:https://srvic.org/event/senior-social-june-2025/
+LOCATION:SRVIC Center\, 2232 Camino Ramon\,\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:Featured,General
+ATTACH;FMTTYPE=image/jpeg:https://srvic.org/wp-content/uploads/2023/12/senior-social.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250618T180000
+DTEND;TZID=America/Los_Angeles:20250618T200000
+DTSTAMP:20250618T193804
+CREATED:20250128T185602Z
+LAST-MODIFIED:20250128T191036Z
+UID:10007648-1750269600-1750276800@srvic.org
+SUMMARY:Ping Pong
+DESCRIPTION:
+URL:https://srvic.org/event/ping-pong/2025-06-18/
+LOCATION:MPR
+CATEGORIES:General
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250619T143000
+DTEND;TZID=America/Los_Angeles:20250619T170000
+DTSTAMP:20250618T193804
+CREATED:20250424T191320Z
+LAST-MODIFIED:20250507T170636Z
+UID:10010853-1750343400-1750352400@srvic.org
+SUMMARY:Summer Camp with Br Haseeb Sadat
+DESCRIPTION: SRVIC Boys’ Summer Camp – June 2025\n\n\n\n\n\n\n\n Location: San Ramon Valley Islamic Center\n Days: Mondays & Wednesdays. Dates: 06/09\, 06/11\, 06/16\, 06/18\, 06/23\, 06/25\, 06/30\, 07/02 \n Time: 2:30 – 4:30 PM\n Ages: Group A (8–10) & Group B (11–13)\n Instructors: Br. Haseeb Sadat & Coach Imran \n\n What to Expect\nAn exciting two-hour camp that combines Islamic knowledge\, martial arts\, and team sports\, tailored to each age group. Your son will grow in strength\, character\, and brotherhood—in both faith and fitness. \n\n Islamic Education\nGroup A (Ages 9–10): \n\nStories of the Sahaba: bravery\, trust in Allah\, honesty\, and sacrifice\nIntroduction to puberty and Islamic values\n\nGroup B (Ages 11–13): \n\nFutuwwah (Islamic Chivalry):\n\nRespect for parents\nModesty & humility\nBrotherhood\nRestraining passions\n\n\nReal talk: opposite-gender interactions & coming-of-age topics\n\n\n Daily Schedule Breakdown\n\n\n\n\n\nTime\nActivity\n\n\n\n\n2:30–2:50\nGroup A: Islamic Lesson (Sahaba) ↔ Group B: Physical Activity\n\n\n2:50–3:10\nGroup A: Physical Activity ↔ Group B: Islamic Lesson (Futuwwah)\n\n\n3:10–3:30\nMartial Arts (Both groups) – Boxing & Wrestling drills\n\n\n3:30–4:00\nPractical Fiqh: Wudhu\, Ghusl\, and Salah basics\n\n\n4:00–4:30\nTeam Sports (Split by age) – Basketball\, Football\, Handball\, etc.\n\n\n\n\n\n\n\n\n\n Why Join?\n\nEngaging\, age-appropriate Islamic learning\nPhysical training in a safe\, structured environment\nGuidance on real-life topics facing Muslim boys\nRun by trusted community instructors\n\n\n Registration\n  \n\n\n Register Now: https://form.jotform.com/251135134210136?mc_cid=24d8bc8544&mc_eid=2834efeefb \n Spots are limited – early registration recommended!\n\n—\n \n\n\n\n\n\nHaseeb Sadat\, MS Education\nFounder and Head Instructor\, Andalusia Academics\nandalusiaacademics@gmail.com | (510) 456-0497\nwww.andalusiaacademics.com\n\n\n\n\n\n\nPrice:\nWeekly – $100\nEntire session – $300 \nClick here to register
+URL:https://srvic.org/event/summer-camp-with-br-haseeb-sadat/2025-06-19/
+LOCATION:SRVIC Center\, 2232 Camino Ramon\,\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:Featured,General,Youth
+ATTACH;FMTTYPE=image/jpeg:https://srvic.org/wp-content/uploads/2024/01/haseeb-e1710273859516.jpg
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250619T160000
+DTEND;TZID=America/Los_Angeles:20250619T173000
+DTSTAMP:20250618T193804
+CREATED:20250128T155615Z
+LAST-MODIFIED:20250128T155827Z
+UID:10007517-1750348800-1750354200@srvic.org
+SUMMARY:Weekly Meeting
+DESCRIPTION:
+URL:https://srvic.org/event/meeting/2025-06-19/
+LOCATION:SRVIC Center\, 2232 Camino Ramon\,\, San Ramon\, CA\, 94583\, United States
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250619T160000
+DTEND;TZID=America/Los_Angeles:20250619T190000
+DTSTAMP:20250618T193804
+CREATED:20250131T034033Z
+LAST-MODIFIED:20250131T034033Z
+UID:10009696-1750348800-1750359600@srvic.org
+SUMMARY:Youth Quran Reading Class - TR
+DESCRIPTION:
+URL:https://srvic.org/event/youth-quran-reading-class-tr/2025-06-19/
+LOCATION:Family Room – B\, 2232 Camino Ramon\, San Ramon
+CATEGORIES:Educational,Youth
+ATTACH;FMTTYPE=image/jpeg:https://srvic.org/wp-content/uploads/2025/01/The-Flyer-of-Youth-Quran-Reading.jpg
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250619T180000
+DTEND;TZID=America/Los_Angeles:20250619T200000
+DTSTAMP:20250618T193804
+CREATED:20250128T185602Z
+LAST-MODIFIED:20250128T191036Z
+UID:10007649-1750356000-1750363200@srvic.org
+SUMMARY:Ping Pong
+DESCRIPTION:
+URL:https://srvic.org/event/ping-pong/2025-06-19/
+LOCATION:MPR
+CATEGORIES:General
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250619T201500
+DTEND;TZID=America/Los_Angeles:20250619T211500
+DTSTAMP:20250618T193804
+CREATED:20250501T180820Z
+LAST-MODIFIED:20250501T180820Z
+UID:10011137-1750364100-1750367700@srvic.org
+SUMMARY:Exploring the mysteries of the Quran - 3rd Thursday
+DESCRIPTION:
+URL:https://srvic.org/event/exploring-the-mysteries-of-the-quran-3rd-thursday/2025-06-19/
+LOCATION:SRVIC Center\, 2232 Camino Ramon\,\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:Educational,Featured,General,Youth
+ATTACH;FMTTYPE=image/jpeg:https://srvic.org/wp-content/uploads/2025/05/mysteries.jpg
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250620T133000
+DTEND;TZID=America/Los_Angeles:20250620T140000
+DTSTAMP:20250618T193804
+CREATED:20240309T203531Z
+LAST-MODIFIED:20240309T210649Z
+UID:10005511-1750426200-1750428000@srvic.org
+SUMMARY:Jum'a Prayer
+DESCRIPTION:
+URL:https://srvic.org/event/juma-prayer/2025-06-20/
+LOCATION:SRVIC Center\, 2232 Camino Ramon\,\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:General,Jummah Prayer
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250620T153000
+DTEND;TZID=America/Los_Angeles:20250620T160000
+DTSTAMP:20250618T193804
+CREATED:20240309T202903Z
+LAST-MODIFIED:20250612T192032Z
+UID:10005771-1750433400-1750435200@srvic.org
+SUMMARY:Jum'a Prayer - Youth
+DESCRIPTION:
+URL:https://srvic.org/event/juma-prayer-youth-2/2025-06-20/
+LOCATION:SRVIC Center\, 2232 Camino Ramon\,\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:Jummah Prayer,Youth
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250620T180000
+DTEND;TZID=America/Los_Angeles:20250620T193000
+DTSTAMP:20250618T193804
+CREATED:20240818T204719Z
+LAST-MODIFIED:20250504T154735Z
+UID:10006120-1750442400-1750447800@srvic.org
+SUMMARY:Youth Halaqa
+DESCRIPTION:SRVIC YOUTH PROGRAMS\nFridays | 6:00PM – 7:30PM \n\n13-18 Years-Old | Br. Sarim Mundres & Br. Mohammad Constantino\n\n9-12 Years-Old | H. Ehab Mundres & H. Ibrahim Bello\n\n6-8 Years-Old | Anaya Khan & Ilham Pathan\, Laila and Inaya\n\n\n \n 
+URL:https://srvic.org/event/youth-halaqa-2-2/2025-06-20/
+LOCATION:SRVIC Center\, 2232 Camino Ramon\,\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:General,Youth
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250623T143000
+DTEND;TZID=America/Los_Angeles:20250623T170000
+DTSTAMP:20250618T193804
+CREATED:20250424T191320Z
+LAST-MODIFIED:20250507T170636Z
+UID:10010854-1750689000-1750698000@srvic.org
+SUMMARY:Summer Camp with Br Haseeb Sadat
+DESCRIPTION: SRVIC Boys’ Summer Camp – June 2025\n\n\n\n\n\n\n\n Location: San Ramon Valley Islamic Center\n Days: Mondays & Wednesdays. Dates: 06/09\, 06/11\, 06/16\, 06/18\, 06/23\, 06/25\, 06/30\, 07/02 \n Time: 2:30 – 4:30 PM\n Ages: Group A (8–10) & Group B (11–13)\n Instructors: Br. Haseeb Sadat & Coach Imran \n\n What to Expect\nAn exciting two-hour camp that combines Islamic knowledge\, martial arts\, and team sports\, tailored to each age group. Your son will grow in strength\, character\, and brotherhood—in both faith and fitness. \n\n Islamic Education\nGroup A (Ages 9–10): \n\nStories of the Sahaba: bravery\, trust in Allah\, honesty\, and sacrifice\nIntroduction to puberty and Islamic values\n\nGroup B (Ages 11–13): \n\nFutuwwah (Islamic Chivalry):\n\nRespect for parents\nModesty & humility\nBrotherhood\nRestraining passions\n\n\nReal talk: opposite-gender interactions & coming-of-age topics\n\n\n Daily Schedule Breakdown\n\n\n\n\n\nTime\nActivity\n\n\n\n\n2:30–2:50\nGroup A: Islamic Lesson (Sahaba) ↔ Group B: Physical Activity\n\n\n2:50–3:10\nGroup A: Physical Activity ↔ Group B: Islamic Lesson (Futuwwah)\n\n\n3:10–3:30\nMartial Arts (Both groups) – Boxing & Wrestling drills\n\n\n3:30–4:00\nPractical Fiqh: Wudhu\, Ghusl\, and Salah basics\n\n\n4:00–4:30\nTeam Sports (Split by age) – Basketball\, Football\, Handball\, etc.\n\n\n\n\n\n\n\n\n\n Why Join?\n\nEngaging\, age-appropriate Islamic learning\nPhysical training in a safe\, structured environment\nGuidance on real-life topics facing Muslim boys\nRun by trusted community instructors\n\n\n Registration\n  \n\n\n Register Now: https://form.jotform.com/251135134210136?mc_cid=24d8bc8544&mc_eid=2834efeefb \n Spots are limited – early registration recommended!\n\n—\n \n\n\n\n\n\nHaseeb Sadat\, MS Education\nFounder and Head Instructor\, Andalusia Academics\nandalusiaacademics@gmail.com | (510) 456-0497\nwww.andalusiaacademics.com\n\n\n\n\n\n\nPrice:\nWeekly – $100\nEntire session – $300 \nClick here to register
+URL:https://srvic.org/event/summer-camp-with-br-haseeb-sadat/2025-06-23/
+LOCATION:SRVIC Center\, 2232 Camino Ramon\,\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:Featured,General,Youth
+ATTACH;FMTTYPE=image/jpeg:https://srvic.org/wp-content/uploads/2024/01/haseeb-e1710273859516.jpg
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250623T160000
+DTEND;TZID=America/Los_Angeles:20250623T180000
+DTSTAMP:20250618T193804
+CREATED:20250131T032547Z
+LAST-MODIFIED:20250131T033440Z
+UID:10008653-1750694400-1750701600@srvic.org
+SUMMARY:Youth Quran Reading Class - MW
+DESCRIPTION:
+URL:https://srvic.org/event/youth-quran-reading-class-mw/2025-06-23/
+LOCATION:Family Room – B\, 2232 Camino Ramon\, San Ramon
+CATEGORIES:Educational,Youth
+ATTACH;FMTTYPE=image/png:https://srvic.org/wp-content/uploads/2022/08/Moslem-Boy-Reading-Al-Quran-e1661642544161.png
+ORGANIZER;CN="Sr. Rawad":MAILTO:rkhandakji@srvic.net
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250623T163000
+DTEND;TZID=America/Los_Angeles:20250623T173000
+DTSTAMP:20250618T193804
+CREATED:20250131T034445Z
+LAST-MODIFIED:20250131T034445Z
+UID:10010218-1750696200-1750699800@srvic.org
+SUMMARY:Youth Quran Reading Class - Sr Roya
+DESCRIPTION:
+URL:https://srvic.org/event/youth-quran-reading-class-sr-roya/2025-06-23/
+LOCATION:Women Prayer Hall\, 2232 Camino Ramon\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:Educational,Youth
+ATTACH;FMTTYPE=image/jpeg:https://srvic.org/wp-content/uploads/2025/01/The-Flyer-of-Youth-Quran-Reading.jpg
+ORGANIZER;CN="Sr  Roya":MAILTO:quran@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250623T180000
+DTEND;TZID=America/Los_Angeles:20250623T193000
+DTSTAMP:20250618T193804
+CREATED:20240509T015520Z
+LAST-MODIFIED:20250504T215039Z
+UID:10005886-1750701600-1750707000@srvic.org
+SUMMARY:SRVIC Youth Soccer Camp with Coach Arshed Mea
+DESCRIPTION:Soccer Coach: Arshad Mea\nU.S. Licensed Soccer Coach\n10+ years of coaching experience\nPlayed in Several Bay Area\nLeagues and Tournaments over\nthe past 15+ years. \n  \nOverview of Camp:\nFundamental Strategy of the Game\nDribbling. Passing. Shooting\,\nDefending. 1v1 and Scrimmage\nGames \nCoach will assess player experience and\ncustomize the lessons for advanced players.
+URL:https://srvic.org/event/srvic-youth-soccer-camp-with-coach-arshed-mea/
+LOCATION:CA
+CATEGORIES:Featured,Main,Youth
+ORGANIZER;CN="Arshad Mea":MAILTO:arshadmea@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250623T180000
+DTEND;TZID=America/Los_Angeles:20250623T200000
+DTSTAMP:20250618T193804
+CREATED:20250128T185602Z
+LAST-MODIFIED:20250128T191036Z
+UID:10007650-1750701600-1750708800@srvic.org
+SUMMARY:Ping Pong
+DESCRIPTION:
+URL:https://srvic.org/event/ping-pong/2025-06-23/
+LOCATION:MPR
+CATEGORIES:General
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250624T160000
+DTEND;TZID=America/Los_Angeles:20250624T190000
+DTSTAMP:20250618T193804
+CREATED:20250131T034033Z
+LAST-MODIFIED:20250131T034033Z
+UID:10009697-1750780800-1750791600@srvic.org
+SUMMARY:Youth Quran Reading Class - TR
+DESCRIPTION:
+URL:https://srvic.org/event/youth-quran-reading-class-tr/2025-06-24/
+LOCATION:Family Room – B\, 2232 Camino Ramon\, San Ramon
+CATEGORIES:Educational,Youth
+ATTACH;FMTTYPE=image/jpeg:https://srvic.org/wp-content/uploads/2025/01/The-Flyer-of-Youth-Quran-Reading.jpg
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250624T180000
+DTEND;TZID=America/Los_Angeles:20250624T200000
+DTSTAMP:20250618T193804
+CREATED:20250128T185602Z
+LAST-MODIFIED:20250128T191036Z
+UID:10007651-1750788000-1750795200@srvic.org
+SUMMARY:Ping Pong
+DESCRIPTION:
+URL:https://srvic.org/event/ping-pong/2025-06-24/
+LOCATION:MPR
+CATEGORIES:General
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250625T143000
+DTEND;TZID=America/Los_Angeles:20250625T170000
+DTSTAMP:20250618T193804
+CREATED:20250424T191320Z
+LAST-MODIFIED:20250507T170636Z
+UID:10010855-1750861800-1750870800@srvic.org
+SUMMARY:Summer Camp with Br Haseeb Sadat
+DESCRIPTION: SRVIC Boys’ Summer Camp – June 2025\n\n\n\n\n\n\n\n Location: San Ramon Valley Islamic Center\n Days: Mondays & Wednesdays. Dates: 06/09\, 06/11\, 06/16\, 06/18\, 06/23\, 06/25\, 06/30\, 07/02 \n Time: 2:30 – 4:30 PM\n Ages: Group A (8–10) & Group B (11–13)\n Instructors: Br. Haseeb Sadat & Coach Imran \n\n What to Expect\nAn exciting two-hour camp that combines Islamic knowledge\, martial arts\, and team sports\, tailored to each age group. Your son will grow in strength\, character\, and brotherhood—in both faith and fitness. \n\n Islamic Education\nGroup A (Ages 9–10): \n\nStories of the Sahaba: bravery\, trust in Allah\, honesty\, and sacrifice\nIntroduction to puberty and Islamic values\n\nGroup B (Ages 11–13): \n\nFutuwwah (Islamic Chivalry):\n\nRespect for parents\nModesty & humility\nBrotherhood\nRestraining passions\n\n\nReal talk: opposite-gender interactions & coming-of-age topics\n\n\n Daily Schedule Breakdown\n\n\n\n\n\nTime\nActivity\n\n\n\n\n2:30–2:50\nGroup A: Islamic Lesson (Sahaba) ↔ Group B: Physical Activity\n\n\n2:50–3:10\nGroup A: Physical Activity ↔ Group B: Islamic Lesson (Futuwwah)\n\n\n3:10–3:30\nMartial Arts (Both groups) – Boxing & Wrestling drills\n\n\n3:30–4:00\nPractical Fiqh: Wudhu\, Ghusl\, and Salah basics\n\n\n4:00–4:30\nTeam Sports (Split by age) – Basketball\, Football\, Handball\, etc.\n\n\n\n\n\n\n\n\n\n Why Join?\n\nEngaging\, age-appropriate Islamic learning\nPhysical training in a safe\, structured environment\nGuidance on real-life topics facing Muslim boys\nRun by trusted community instructors\n\n\n Registration\n  \n\n\n Register Now: https://form.jotform.com/251135134210136?mc_cid=24d8bc8544&mc_eid=2834efeefb \n Spots are limited – early registration recommended!\n\n—\n \n\n\n\n\n\nHaseeb Sadat\, MS Education\nFounder and Head Instructor\, Andalusia Academics\nandalusiaacademics@gmail.com | (510) 456-0497\nwww.andalusiaacademics.com\n\n\n\n\n\n\nPrice:\nWeekly – $100\nEntire session – $300 \nClick here to register
+URL:https://srvic.org/event/summer-camp-with-br-haseeb-sadat/2025-06-25/
+LOCATION:SRVIC Center\, 2232 Camino Ramon\,\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:Featured,General,Youth
+ATTACH;FMTTYPE=image/jpeg:https://srvic.org/wp-content/uploads/2024/01/haseeb-e1710273859516.jpg
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250625T160000
+DTEND;TZID=America/Los_Angeles:20250625T180000
+DTSTAMP:20250618T193804
+CREATED:20250131T032547Z
+LAST-MODIFIED:20250131T033440Z
+UID:10008654-1750867200-1750874400@srvic.org
+SUMMARY:Youth Quran Reading Class - MW
+DESCRIPTION:
+URL:https://srvic.org/event/youth-quran-reading-class-mw/2025-06-25/
+LOCATION:Family Room – B\, 2232 Camino Ramon\, San Ramon
+CATEGORIES:Educational,Youth
+ATTACH;FMTTYPE=image/png:https://srvic.org/wp-content/uploads/2022/08/Moslem-Boy-Reading-Al-Quran-e1661642544161.png
+ORGANIZER;CN="Sr. Rawad":MAILTO:rkhandakji@srvic.net
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250625T163000
+DTEND;TZID=America/Los_Angeles:20250625T173000
+DTSTAMP:20250618T193804
+CREATED:20250131T034445Z
+LAST-MODIFIED:20250131T034445Z
+UID:10010219-1750869000-1750872600@srvic.org
+SUMMARY:Youth Quran Reading Class - Sr Roya
+DESCRIPTION:
+URL:https://srvic.org/event/youth-quran-reading-class-sr-roya/2025-06-25/
+LOCATION:Women Prayer Hall\, 2232 Camino Ramon\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:Educational,Youth
+ATTACH;FMTTYPE=image/jpeg:https://srvic.org/wp-content/uploads/2025/01/The-Flyer-of-Youth-Quran-Reading.jpg
+ORGANIZER;CN="Sr  Roya":MAILTO:quran@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250625T180000
+DTEND;TZID=America/Los_Angeles:20250625T200000
+DTSTAMP:20250618T193804
+CREATED:20250128T185602Z
+LAST-MODIFIED:20250128T191036Z
+UID:10007652-1750874400-1750881600@srvic.org
+SUMMARY:Ping Pong
+DESCRIPTION:
+URL:https://srvic.org/event/ping-pong/2025-06-25/
+LOCATION:MPR
+CATEGORIES:General
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250626T160000
+DTEND;TZID=America/Los_Angeles:20250626T173000
+DTSTAMP:20250618T193804
+CREATED:20250128T155615Z
+LAST-MODIFIED:20250128T155827Z
+UID:10007518-1750953600-1750959000@srvic.org
+SUMMARY:Weekly Meeting
+DESCRIPTION:
+URL:https://srvic.org/event/meeting/2025-06-26/
+LOCATION:SRVIC Center\, 2232 Camino Ramon\,\, San Ramon\, CA\, 94583\, United States
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250626T160000
+DTEND;TZID=America/Los_Angeles:20250626T190000
+DTSTAMP:20250618T193804
+CREATED:20250131T034033Z
+LAST-MODIFIED:20250131T034033Z
+UID:10009698-1750953600-1750964400@srvic.org
+SUMMARY:Youth Quran Reading Class - TR
+DESCRIPTION:
+URL:https://srvic.org/event/youth-quran-reading-class-tr/2025-06-26/
+LOCATION:Family Room – B\, 2232 Camino Ramon\, San Ramon
+CATEGORIES:Educational,Youth
+ATTACH;FMTTYPE=image/jpeg:https://srvic.org/wp-content/uploads/2025/01/The-Flyer-of-Youth-Quran-Reading.jpg
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250626T170000
+DTEND;TZID=America/Los_Angeles:20250626T193000
+DTSTAMP:20250618T193804
+CREATED:20250504T211426Z
+LAST-MODIFIED:20250504T211426Z
+UID:10011219-1750957200-1750966200@srvic.org
+SUMMARY:Kids Lego Day at SRVIC
+DESCRIPTION:
+URL:https://srvic.org/event/kids-lego-day-at-srvic/
+LOCATION:SRVIC Center\, 2232 Camino Ramon\,\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:Featured,Youth
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250626T180000
+DTEND;TZID=America/Los_Angeles:20250626T200000
+DTSTAMP:20250618T193804
+CREATED:20250128T185602Z
+LAST-MODIFIED:20250128T191036Z
+UID:10007653-1750960800-1750968000@srvic.org
+SUMMARY:Ping Pong
+DESCRIPTION:
+URL:https://srvic.org/event/ping-pong/2025-06-26/
+LOCATION:MPR
+CATEGORIES:General
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250627T133000
+DTEND;TZID=America/Los_Angeles:20250627T140000
+DTSTAMP:20250618T193804
+CREATED:20240309T203531Z
+LAST-MODIFIED:20240309T210649Z
+UID:10005512-1751031000-1751032800@srvic.org
+SUMMARY:Jum'a Prayer
+DESCRIPTION:
+URL:https://srvic.org/event/juma-prayer/2025-06-27/
+LOCATION:SRVIC Center\, 2232 Camino Ramon\,\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:General,Jummah Prayer
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250627T153000
+DTEND;TZID=America/Los_Angeles:20250627T160000
+DTSTAMP:20250618T193804
+CREATED:20240309T202903Z
+LAST-MODIFIED:20250612T192032Z
+UID:10005772-1751038200-1751040000@srvic.org
+SUMMARY:Jum'a Prayer - Youth
+DESCRIPTION:
+URL:https://srvic.org/event/juma-prayer-youth-2/2025-06-27/
+LOCATION:SRVIC Center\, 2232 Camino Ramon\,\, San Ramon\, CA\, 94583\, United States
+CATEGORIES:Jummah Prayer,Youth
+ORGANIZER;CN="Sh. Hassan":MAILTO:hassan@srvic.org
+END:VEVENT
+END:VCALENDAR
