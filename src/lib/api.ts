@@ -15,6 +15,10 @@ export interface Event {
   description?: string;
 }
 
+type PrayerRow = {
+  [key: string]: string | undefined;
+};
+
 export async function fetchPrayerTimes(): Promise<PrayerTime[]> {
   try {
     const response = await fetch('/prayer_times.csv');
@@ -22,7 +26,7 @@ export async function fetchPrayerTimes(): Promise<PrayerTime[]> {
 
     // Parse the CSV data
     const parsed = Papa.parse(csvText, { header: true, skipEmptyLines: true });
-    const data = parsed.data as any[];
+    const data = parsed.data as PrayerRow[];
 
     // Format today's date as in the CSV, e.g. "June 25, 2025"
     const today = new Date();
@@ -51,12 +55,12 @@ export async function fetchPrayerTimes(): Promise<PrayerTime[]> {
 
     if (todayRow) {
       return [
-        { name: 'Fajr', time: todayRow['Fajr'], iqamah: todayRow['_1'] },
-        { name: 'Sunrise', time: todayRow['_2'] },
-        { name: 'Dhuhr', time: todayRow['Dhuhr'], iqamah: todayRow['_3'] },
-        { name: 'Asr', time: todayRow['Asr'], iqamah: todayRow['_5'] }, // Using Standard time
-        { name: 'Maghrib', time: todayRow['Maghrib'], iqamah: todayRow['_6'] },
-        { name: 'Isha', time: todayRow['Isha'], iqamah: todayRow['_7'] },
+        { name: 'Fajr', time: todayRow['Fajr'] || '', iqamah: todayRow['_1'] || '' },
+        { name: 'Sunrise', time: todayRow['_2'] || '' },
+        { name: 'Dhuhr', time: todayRow['Dhuhr'] || '', iqamah: todayRow['_3'] || '' },
+        { name: 'Asr', time: todayRow['Asr'] || '', iqamah: todayRow['_5'] || '' }, // Using Standard time
+        { name: 'Maghrib', time: todayRow['Maghrib'] || '', iqamah: todayRow['_6'] || '' },
+        { name: 'Isha', time: todayRow['Isha'] || '', iqamah: todayRow['_7'] || '' },
       ];
     }
 

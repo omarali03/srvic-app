@@ -2,7 +2,7 @@
 import * as React from "react"
 import { useEffect, useState } from "react";
 import { Card, CardContent } from "../components/ui/card";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "../components/ui/tabs";
+import { Tabs, TabsContent } from "../components/ui/tabs";
 import { Clock3, CalendarDays, Image, PhoneCall, Moon, Sun } from "lucide-react";
 import { fetchPrayerTimes, fetchEvents, type PrayerTime, type Event } from "../lib/api";
 import axios from "axios";
@@ -58,12 +58,11 @@ export default function PrayerHome() {
     if (!prayer.time) continue;
     
     const prayerMinutes = getTimeInMinutes(prayer.time);
-    const nextPrayerMinutes = getTimeInMinutes(prayerTimes[nextPrayerIndex].time || '');
+    let nextPrayerMinutes = getTimeInMinutes(prayerTimes[nextPrayerIndex].time || '');
     
     // Handle day boundary
-    let adjustedNextPrayerMinutes = nextPrayerMinutes;
     if (nextPrayerMinutes < prayerMinutes) {
-      adjustedNextPrayerMinutes += 24 * 60;
+      nextPrayerMinutes += 24 * 60;
     }
     
     if (currentMinutes >= prayerMinutes && 
