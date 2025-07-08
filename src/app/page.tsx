@@ -139,18 +139,18 @@ export default function PrayerHome() {
                         <p className="text-sm text-white/70">Next Prayer</p>
                         <p className="text-lg font-semibold">{nextPrayer.name} - {nextPrayer.time}</p>
                         <p className="text-sm text-white/70 mt-1">
-                          Time until next prayer: {formatTimeUntil(minutesUntilNext)}
+                          {"Time until next prayer: " + formatTimeUntil(minutesUntilNext)}
                         </p>
                         {nextPrayer.iqamah && (
                           <p className="text-sm text-emerald-200 mt-1">
-                            Iqamah: {nextPrayer.iqamah}
+                            {"Iqamah: " + nextPrayer.iqamah}
                           </p>
                         )}
                       </div>
                     )}
                   </>
                 ) : (
-                  <h2 className="text-2xl font-bold">Loading prayer times...</h2>
+                  <h2 className="text-2xl font-bold">{"Loading prayer times..."}</h2>
                 )}
               </CardContent>
             </Card>
@@ -158,7 +158,7 @@ export default function PrayerHome() {
             {/* Prayer Times */}
             <Card className="bg-white rounded-2xl shadow-md">
               <CardContent className="px-4 py-3">
-                <h3 className="text-lg font-semibold text-gray-700 mb-2">Today's Prayer Times</h3>
+                <h3 className="text-lg font-semibold text-gray-700 mb-2">{"Today's Prayer Times"}</h3>
                 {prayerTimes.length > 0 ? (
                   <ul className="divide-y divide-gray-200">
                     {prayerTimes.map((p) => (
