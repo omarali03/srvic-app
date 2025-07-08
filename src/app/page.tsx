@@ -125,7 +125,7 @@ export default function PrayerHome() {
 
       <Tabs value={tab} onValueChange={setTab} className="flex flex-col h-[calc(100vh-8rem)]">
         {/* Content Area - Scrollable with bottom padding for tab bar */}
-        <div className="flex-1 overflow-y-auto pb-20 px-4">
+        <div className="flex-1 overflow-y-auto pb-24 px-4">
           <TabsContent value="prayers" className="mt-4 space-y-4">
             {/* Current Prayer */}
             <Card className="bg-white/10 backdrop-blur-md border-white/20 text-white rounded-2xl shadow-lg">
@@ -321,8 +321,8 @@ export default function PrayerHome() {
         </div>
 
         {/* iOS-Style Bottom Tab Bar */}
-        <div className="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-gray-200 px-4 pb-4 pt-2">
-          <div className="flex justify-around items-center">
+        <div className="fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-xl border-t border-gray-100 safe-area-pb">
+          <div className="flex justify-around items-center px-2 pt-2 pb-1">
             {tabs.map((tabConfig) => {
               const Icon = tabConfig.icon;
               const isActive = tab === tabConfig.id;
@@ -331,29 +331,30 @@ export default function PrayerHome() {
                 <button
                   key={tabConfig.id}
                   onClick={() => setTab(tabConfig.id)}
-                  className={`flex flex-col items-center justify-center px-3 py-1 min-w-0 transition-all duration-200 ${
-                    isActive 
-                      ? 'text-emerald-600' 
-                      : 'text-gray-400 hover:text-gray-600'
-                  }`}
+                  className="flex flex-col items-center justify-center px-4 py-1 min-w-0 transition-all duration-300 ease-out"
                 >
-                  <Icon 
-                    size={24} 
-                    className={`mb-1 transition-all duration-200 ${
-                      isActive ? 'scale-110' : 'scale-100'
-                    }`}
-                  />
-                  <span 
-                    className={`text-xs font-medium transition-all duration-200 ${
-                      isActive ? 'scale-105' : 'scale-100'
-                    }`}
-                  >
-                    {tabConfig.label}
-                  </span>
-                  {/* iOS-style indicator dot */}
-                  {isActive && (
-                    <div className="w-1 h-1 bg-emerald-600 rounded-full mt-1 animate-pulse" />
-                  )}
+                  <div className={`flex flex-col items-center transition-all duration-300 ease-out ${
+                    isActive ? 'transform -translate-y-0.5' : ''
+                  }`}>
+                    <Icon 
+                      size={isActive ? 26 : 22} 
+                      className={`transition-all duration-300 ease-out ${
+                        isActive 
+                          ? 'text-emerald-600 drop-shadow-sm' 
+                          : 'text-gray-500'
+                      }`}
+                      strokeWidth={isActive ? 2.5 : 2}
+                    />
+                    <span 
+                      className={`text-xs font-medium mt-1 transition-all duration-300 ease-out ${
+                        isActive 
+                          ? 'text-emerald-600' 
+                          : 'text-gray-500'
+                      }`}
+                    >
+                      {tabConfig.label}
+                    </span>
+                  </div>
                 </button>
               );
             })}
