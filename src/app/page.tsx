@@ -5,8 +5,6 @@ import { Card, CardContent } from "../components/ui/card";
 import { Tabs, TabsContent } from "../components/ui/tabs";
 import { Clock3, CalendarDays, Image, PhoneCall, Moon, Sun } from "lucide-react";
 import { fetchPrayerTimes, fetchEvents, type PrayerTime, type Event } from "../lib/api";
-import axios from "axios";
-import { load } from "cheerio";
 
 function getTimeInMinutes(timeStr: string): number {
   const [time, period] = timeStr.split(' ');
