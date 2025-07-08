@@ -1,5 +1,3 @@
-import axios from 'axios';
-import { load } from 'cheerio';
 import Papa from 'papaparse';
 
 export interface PrayerTime {
@@ -84,8 +82,8 @@ export async function fetchPrayerTimes(): Promise<PrayerTime[]> {
 
 export async function fetchEvents(): Promise<Event[]> {
   try {
-    const response = await axios.get('/calendar.ics');
-    const icsData = response.data;
+    const response = await fetch('/calendar.ics');
+    const icsData = await response.text();
     // console.log("Fetched ICS data:", icsData);
 
     const events: Event[] = [];
